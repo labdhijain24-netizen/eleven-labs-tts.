@@ -18,7 +18,7 @@ load_dotenv()
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from utils.eleven_service import (
+from app_utils.eleven_service import (
     validate_api_key,
     fetch_all_voices,
     generate_speech,
